@@ -771,5 +771,10 @@ namespace IdleMaster
 			UpdateStateInfo();
 		}
 	}
+
+	private void choiceGameToolStripMenuItem_Click(object sender, EventArgs e)
+	{
+		btnChoice.PerformClick();
+	}
   }
 }
